@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Litwicki\Bundle\ChargifyBundle\Services\ChargifyHandler</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-Litwicki.html">
+						Litwicki<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-Litwicki.Bundle.html">
+						Bundle<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-Litwicki.Bundle.ChargifyBundle.html">
+						ChargifyBundle<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Controller.html">
+						Controller					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Litwicki.Bundle.ChargifyBundle.DependencyInjection.html">
+						DependencyInjection					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Exception.html">
+						Exception					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Handler.html">
+						Handler					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Model.html">
+						Model					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html">
+						Services					</a>
+
+						</li>
+							</ul></li></ul></li></ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html">ChargifyHandler</a></li>
+				<li><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html">ChargifyModel</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandlerInterface.html">ChargifyHandlerInterface</a></li>
+				<li><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyInterface.html">ChargifyInterface</a></li>
+				<li><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyReadOnlyInterface.html">ChargifyReadOnlyInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html" title="Summary of Litwicki\Bundle\ChargifyBundle\Services"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class ChargifyHandler</h1>
+
+
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Litwicki.Bundle.ChargifyBundle.Handler.AdjustmentHandler.html">Litwicki\Bundle\ChargifyBundle\Handler\AdjustmentHandler</a>, 
+			<a href="class-Litwicki.Bundle.ChargifyBundle.Handler.ChargeHandler.html">Litwicki\Bundle\ChargifyBundle\Handler\ChargeHandler</a>, 
+			<a href="class-Litwicki.Bundle.ChargifyBundle.Handler.ComponentHandler.html">Litwicki\Bundle\ChargifyBundle\Handler\ComponentHandler</a>, 
+			<a href="class-Litwicki.Bundle.ChargifyBundle.Handler.CouponHandler.html">Litwicki\Bundle\ChargifyBundle\Handler\CouponHandler</a>, 
+			<a href="class-Litwicki.Bundle.ChargifyBundle.Handler.CustomerHandler.html">Litwicki\Bundle\ChargifyBundle\Handler\CustomerHandler</a>, 
+			<a href="class-Litwicki.Bundle.ChargifyBundle.Handler.EventHandler.html">Litwicki\Bundle\ChargifyBundle\Handler\EventHandler</a>, 
+			<a href="class-Litwicki.Bundle.ChargifyBundle.Handler.InvoiceHandler.html">Litwicki\Bundle\ChargifyBundle\Handler\InvoiceHandler</a>, 
+			<a href="class-Litwicki.Bundle.ChargifyBundle.Handler.ProductHandler.html">Litwicki\Bundle\ChargifyBundle\Handler\ProductHandler</a>, 
+			<a href="class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html">Litwicki\Bundle\ChargifyBundle\Handler\SubscriptionHandler</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Litwicki.html">Litwicki</a>\<a href="namespace-Litwicki.Bundle.html">Bundle</a>\<a href="namespace-Litwicki.Bundle.ChargifyBundle.html">ChargifyBundle</a>\<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html">Services</a><br>
+		
+
+			<b>Located at</b> <a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#9-524" title="Go to source code">Litwicki/Bundle/ChargifyBundle/Services/ChargifyHandler.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#19-50" title="Go to source code">__construct</a>( <span> <var>$domain</var></span>, <span> <var>$api_id</var></span>, <span> <var>$api_secret</var></span>, <span> <var>$api_password</var></span>, <span> <var>$api_key</var></span>, <span> <var>$shared_key</var></span>, <span> <var>$format</var></span>, <span> <var>$test_mode</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$domain</var></dt>
+					<dd></dd>
+					<dt><var>$api_id</var></dt>
+					<dd></dd>
+					<dt><var>$api_secret</var></dt>
+					<dd></dd>
+					<dt><var>$api_password</var></dt>
+					<dd></dd>
+					<dt><var>$api_key</var></dt>
+					<dd></dd>
+					<dt><var>$shared_key</var></dt>
+					<dd></dd>
+					<dt><var>$format</var></dt>
+					<dd><p>[
+  "%chargify.domain%",
+  "%chargify.api_id%",
+  "%chargify.api_secret%",
+  "%chargify.api_password%",
+  "%chargify.api_key%",
+  "%chargify.shared_key%",
+  "%chargify.data_format%",
+  "%chargify.test_mode%"
+]</p></dd>
+					<dt><var>$test_mode</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="request" id="_request">
+
+		<td class="attributes"><code>
+			 public 
+
+			Litwicki\Common\cURL
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_request">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#52-132" title="Go to source code">request</a>( <span> <var>$uri</var></span>, <span>string <var>$method</var> = <span class="php-quote">'GET'</span></span>, <span>string <var>$data</var> = <span class="php-quote">''</span></span>, <span>array <var>$query</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$v2</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd></dd>
+					<dt><var>$method</var></dt>
+					<dd></dd>
+					<dt><var>$data</var></dt>
+					<dd></dd>
+					<dt><var>$query</var></dt>
+					<dd></dd>
+					<dt><var>$v2</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					Litwicki\Common\cURL
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="throwException" id="_throwException">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_throwException">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#134-159" title="Go to source code">throwException</a>( <span> <var>$curl</var></span> )</code>
+
+		<div class="description short">
+			<p>Throw a proper exception message.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Throw a proper exception message.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$curl</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="formatResponse" id="_formatResponse">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_formatResponse">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#161-188" title="Go to source code">formatResponse</a>( <span> <var>$curl</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$curl</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="entityToJson" id="_entityToJson">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_entityToJson">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#190-213" title="Go to source code">entityToJson</a>( <span> <var>$entity</var></span> )</code>
+
+		<div class="description short">
+			<p>Convert an entity to a json object.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Convert an entity to a json object.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$entity</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="entityToXml" id="_entityToXml">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_entityToXml">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#215-237" title="Go to source code">entityToXml</a>( <span> <var>$entity</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$entity</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="entityToArray" id="_entityToArray">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_entityToArray">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#239-287" title="Go to source code">entityToArray</a>( <span> <var>$entity</var></span> )</code>
+
+		<div class="description short">
+			<p>Convert an entity to an associative array.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Convert an entity to an associative array.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$entity</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="stringToArray" id="_stringToArray">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_stringToArray">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#289-312" title="Go to source code">stringToArray</a>( <span> <var>$string</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$string</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="assignValues" id="_assignValues">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_assignValues">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#314-344" title="Go to source code">assignValues</a>( <span> <var>$entity</var></span>, <span> <var>$data</var></span> )</code>
+
+		<div class="description short">
+			<p>Assign the response values to the entity itself.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Assign the response values to the entity itself.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$entity</var></dt>
+					<dd></dd>
+					<dt><var>$data</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="postData" id="_postData">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_postData">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#346-369" title="Go to source code">postData</a>( <span> <var>$data</var></span> )</code>
+
+		<div class="description short">
+			<p>Convert an Array to JSON or XML string</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Convert an Array to JSON or XML string</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$data</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="entityToPostData" id="_entityToPostData">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_entityToPostData">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#371-384" title="Go to source code">entityToPostData</a>( <span> <var>$entity</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$entity</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="decamelize" id="_decamelize">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_decamelize">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#386-401" title="Go to source code">decamelize</a>( <span> <var>$word</var></span> )</code>
+
+		<div class="description short">
+			<p>Replace myCamelCaseWord with my_camel_case_word.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Replace myCamelCaseWord with my_camel_case_word.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$word</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="camelize" id="_camelize">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_camelize">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#403-420" title="Go to source code">camelize</a>( <span> <var>$word</var></span> )</code>
+
+		<div class="description short">
+			<p>Replace my_camel_case_word with myCamelCaseWord</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Replace my_camel_case_word with myCamelCaseWord</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$word</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="fetchMultiple" id="_fetchMultiple">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_fetchMultiple">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#422-444" title="Go to source code">fetchMultiple</a>( <span> <var>$uri</var></span>, <span> <var>$class</var></span>, <span>array <var>$query</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Fetch an array of objects.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Fetch an array of objects.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$uri</var></dt>
+					<dd></dd>
+					<dt><var>$class</var></dt>
+					<dd></dd>
+					<dt><var>$query</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getStats" id="_getStats">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getStats">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#446-466" title="Go to source code">getStats</a>( )</code>
+
+		<div class="description short">
+			<p>The Stats API is a very basic view of some Site-level stats.
+This is actually the source of the data that powers the Chargify To Go iPhone App</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>The Stats API is a very basic view of some Site-level stats.
+This is actually the source of the data that powers the Chargify To Go iPhone App</p>
+
+<p>This API call only answers with JSON responses. An XML version is not provided.</p>
+
+
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSiteStatements" id="_getSiteStatements">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSiteStatements">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#468-500" title="Go to source code">getSiteStatements</a>( <span>array <var>$query</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Find all statement Ids for the default site.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Find all statement Ids for the default site.</p>
+
+<p>Say you would like to get the 10 most recently created statements.
+You would specify the following optional parameters sort as created_at, direction as desc and limit your per_page to 10.</p>
+
+<p>If you on the other hand wish to find the oldest closed statements you could do: sort as closed_at and direction as asc.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array<br>of ids
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="findStatement" id="_findStatement">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_findStatement">#</a>
+		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#502-522" title="Go to source code">findStatement</a>( <span> <var>$id</var></span> )</code>
+
+		<div class="description short">
+			<p>Find a statement.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Find a statement.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					Exception
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
