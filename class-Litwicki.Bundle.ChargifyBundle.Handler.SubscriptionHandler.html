@@ -5,72 +5,91 @@
 
 	<title>Class Litwicki\Bundle\ChargifyBundle\Handler\SubscriptionHandler</title>
 
-	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
 
 </head>
 
 <body>
-<div id="left">
-	<div id="menu">
-		<a href="index.html" title="Overview"><span>Overview</span></a>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
 
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Handler.html" title="Summary of Litwicki\Bundle\ChargifyBundle\Handler"><span>Namespace</span></a>
+					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
 
 		<div id="groups">
 				<h3>Namespaces</h3>
 			<ul>
-				<li class="active">
-					<a href="namespace-Litwicki.html">
-						Litwicki<span></span>
-					</a>
-
-						<ul>
-				<li class="active">
-					<a href="namespace-Litwicki.Bundle.html">
-						Bundle<span></span>
-					</a>
-
-						<ul>
-				<li class="active">
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.html">
-						ChargifyBundle<span></span>
-					</a>
-
-						<ul>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Controller.html">
-						Controller					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.DependencyInjection.html">
-						DependencyInjection					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Exception.html">
-						Exception					</a>
-
-						</li>
-				<li class="active">
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Handler.html">
-						Handler					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Model.html">
-						Model					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html">
-						Services					</a>
-
-						</li>
-							</ul></li></ul></li></ul></li>
+					<li class="active">
+						<a href="namespace-Litwicki.html">
+							Litwicki<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-Litwicki.Bundle.html">
+							Bundle<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.html">
+							ChargifyBundle<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Controller.html">
+							Controller						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.DependencyInjection.html">
+							DependencyInjection						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Exception.html">
+							Exception						</a>
+							</li>
+					<li class="active">
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Handler.html">
+							Handler						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Model.html">
+							Model						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html">
+							Services						</a>
+							</li>
+								</ul></li></ul></li></ul></li>
 			</ul>
 		</div>
-
-		<hr>
 
 
 		<div id="elements">
@@ -98,36 +117,13 @@
 <div id="splitter"></div>
 
 <div id="right">
-<div id="rightInner">
-	<form id="search">
-		<input type="hidden" name="cx" value="">
-		<input type="hidden" name="ie" value="UTF-8">
-		<input type="text" name="q" class="text" placeholder="Search">
-	</form>
-
-	<div id="navigation">
-		<ul>
-			<li>
-				<a href="index.html" title="Overview"><span>Overview</span></a>
-			</li>
-			<li>
-				<a href="namespace-Litwicki.Bundle.ChargifyBundle.Handler.html" title="Summary of Litwicki\Bundle\ChargifyBundle\Handler"><span>Namespace</span></a>
-			</li>
-			<li class="active">
-<span>Class</span>			</li>
-		</ul>
-		<ul>
-		</ul>
-		<ul>
-		</ul>
-	</div>
-
+	<div id="rightInner">
 <div id="content" class="class">
 	<h1>Class SubscriptionHandler</h1>
 
 
 
-	<dl class="tree">
+	<dl class="tree well">
 		<dd style="padding-left:0px">
 			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html"><span>Litwicki\Bundle\ChargifyBundle\Services\ChargifyHandler</span></a>
 			
@@ -149,527 +145,515 @@
 
 
 
-	<div class="info">
+	<div class="alert alert-info">
 		
 		
 		<b>Namespace:</b> <a href="namespace-Litwicki.html">Litwicki</a>\<a href="namespace-Litwicki.Bundle.html">Bundle</a>\<a href="namespace-Litwicki.Bundle.ChargifyBundle.html">ChargifyBundle</a>\<a href="namespace-Litwicki.Bundle.ChargifyBundle.Handler.html">Handler</a><br>
 		
 
-			<b>Located at</b> <a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#9-343" title="Go to source code">Litwicki/Bundle/ChargifyBundle/Handler/SubscriptionHandler.php</a>
+			<b>Located at</b> <a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#9-327" title="Go to source code">Litwicki/Bundle/ChargifyBundle/Handler/SubscriptionHandler.php</a>
 		<br>
 	</div>
 
 
 
-	<table class="summary methods" id="methods">
-	<caption>Methods summary</caption>
-	<tr data-order="refund" id="_refund">
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="refund" id="_refund">
 
-		<td class="attributes"><code>
-			 public 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-			
-			
-			</code>
-		</td>
+			<td class="name"><div>
+			<a class="anchor" href="#_refund">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#12-35" title="Go to source code">refund</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Refund.html">Litwicki\Bundle\ChargifyBundle\Model\Refund</a></code> <var>$entity</var></span>, <span> <var>$subscription_id</var></span> )</code>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_refund">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#12-36" title="Go to source code">refund</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Refund.html">Litwicki\Bundle\ChargifyBundle\Model\Refund</a></code> <var>$entity</var></span>, <span> <var>$subscription_id</var></span> )</code>
+			<div class="description short">
+				<p>Refund a Subscription.</p>
+			</div>
 
-		<div class="description short">
-			<p>Refund a Subscription.</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Refund a Subscription.</p>
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$entity</var></dt>
-					<dd></dd>
-					<dt><var>$subscription_id</var></dt>
-					<dd></dd>
-				</dl></div>
+			<div class="description detailed hidden">
+				<p>Refund a Subscription.</p>
 
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$entity</var></dt>
+						<dd></dd>
+						<dt><var>$subscription_id</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
 
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="getRenewalPreview" id="_getRenewalPreview">
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getRenewalPreview" id="_getRenewalPreview">
 
-		<td class="attributes"><code>
-			 public 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-			
-			
-			</code>
-		</td>
+			<td class="name"><div>
+			<a class="anchor" href="#_getRenewalPreview">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#37-59" title="Go to source code">getRenewalPreview</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_getRenewalPreview">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#38-60" title="Go to source code">getRenewalPreview</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
-
-		<div class="description short">
-			<p>Renewal Preview is an object representing a subscription’s next assessment.
+			<div class="description short">
+				<p>Renewal Preview is an object representing a subscription’s next assessment.
 You can retrieve it to see a snapshot of how much your customer will be charged on their next renewal.</p>
-		</div>
+			</div>
 
-		<div class="description detailed hidden">
-			<p>Renewal Preview is an object representing a subscription’s next assessment.
+			<div class="description detailed hidden">
+				<p>Renewal Preview is an object representing a subscription’s next assessment.
 You can retrieve it to see a snapshot of how much your customer will be charged on their next renewal.</p>
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$entity</var></dt>
-					<dd></dd>
-				</dl></div>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$entity</var></dt>
+						<dd></dd>
+					</dl></div>
 
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
 
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="getStatements" id="_getStatements">
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getStatements" id="_getStatements">
 
-		<td class="attributes"><code>
-			 public 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-			
-			
-			</code>
-		</td>
+			<td class="name"><div>
+			<a class="anchor" href="#_getStatements">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#61-82" title="Go to source code">getStatements</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_getStatements">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#62-83" title="Go to source code">getStatements</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
+			<div class="description short">
+				<p>Find all statements for a Subscription.</p>
+			</div>
 
-		<div class="description short">
-			<p>Find all statements for a Subscription.</p>
-		</div>
+			<div class="description detailed hidden">
+				<p>Find all statements for a Subscription.</p>
 
-		<div class="description detailed hidden">
-			<p>Find all statements for a Subscription.</p>
 
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$entity</var></dt>
+						<dd></dd>
+					</dl></div>
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$entity</var></dt>
-					<dd></dd>
-				</dl></div>
 
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
 
 
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create" id="_create">
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="create" id="_create">
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-		<td class="attributes"><code>
-			 public 
+			<td class="name"><div>
+			<a class="anchor" href="#_create">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#84-104" title="Go to source code">create</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
 
-			
-			
-			</code>
-		</td>
+			<div class="description short">
+				<p>Create a Subscription.</p>
+			</div>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_create">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#85-108" title="Go to source code">create</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
+			<div class="description detailed hidden">
+				<p>Create a Subscription.</p>
 
-		<div class="description short">
-			<p>Create a Subscription.</p>
-		</div>
 
-		<div class="description detailed hidden">
-			<p>Create a Subscription.</p>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$entity</var></dt>
+						<dd></dd>
+					</dl></div>
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$entity</var></dt>
-					<dd></dd>
-				</dl></div>
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
 
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="find" id="_find">
 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="find" id="_find">
+			<td class="name"><div>
+			<a class="anchor" href="#_find">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#106-125" title="Go to source code">find</a>( <span> <var>$id</var></span> )</code>
 
-		<td class="attributes"><code>
-			 public 
+			<div class="description short">
+				<p>Find a subscription.</p>
+			</div>
 
-			
-			
-			</code>
-		</td>
+			<div class="description detailed hidden">
+				<p>Find a subscription.</p>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_find">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#110-132" title="Go to source code">find</a>( <span> <var>$id</var></span> )</code>
 
-		<div class="description short">
-			<p>Find a subscription.</p>
-		</div>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$id</var></dt>
+						<dd></dd>
+					</dl></div>
 
-		<div class="description detailed hidden">
-			<p>Find a subscription.</p>
 
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$id</var></dt>
-					<dd></dd>
-				</dl></div>
 
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="delete" id="_delete">
 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
+			<td class="name"><div>
+			<a class="anchor" href="#_delete">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#127-148" title="Go to source code">delete</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="delete" id="_delete">
+			<div class="description short">
+				<p>Delete/Cancel a Subscription.</p>
+			</div>
 
-		<td class="attributes"><code>
-			 public 
+			<div class="description detailed hidden">
+				<p>Delete/Cancel a Subscription.</p>
 
-			
-			
-			</code>
-		</td>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_delete">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#134-155" title="Go to source code">delete</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$entity</var></dt>
+						<dd></dd>
+					</dl></div>
 
-		<div class="description short">
-			<p>Delete/Cancel a Subscription.</p>
-		</div>
 
-		<div class="description detailed hidden">
-			<p>Delete/Cancel a Subscription.</p>
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$entity</var></dt>
-					<dd></dd>
-				</dl></div>
 
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="cancel" id="_cancel">
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
+			<td class="name"><div>
+			<a class="anchor" href="#_cancel">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#150-160" title="Go to source code">cancel</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
 
+			<div class="description short">
+				<p>Alias for delete()</p>
+			</div>
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="cancel" id="_cancel">
+			<div class="description detailed hidden">
+				<p>Alias for delete()</p>
 
-		<td class="attributes"><code>
-			 public 
 
-			
-			
-			</code>
-		</td>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$entity</var></dt>
+						<dd></dd>
+					</dl></div>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_cancel">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#157-167" title="Go to source code">cancel</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
 
-		<div class="description short">
-			<p>Alias for delete()</p>
-		</div>
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
-		<div class="description detailed hidden">
-			<p>Alias for delete()</p>
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$entity</var></dt>
-					<dd></dd>
-				</dl></div>
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="cancelAtEndOfPeriod" id="_cancelAtEndOfPeriod">
 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
+			<td class="name"><div>
+			<a class="anchor" href="#_cancelAtEndOfPeriod">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#162-189" title="Go to source code">cancelAtEndOfPeriod</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
 
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="cancelAtEndOfPeriod" id="_cancelAtEndOfPeriod">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_cancelAtEndOfPeriod">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#169-199" title="Go to source code">cancelAtEndOfPeriod</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
-
-		<div class="description short">
-			<p>Chargify offers the ability to cancel a subscription at the end of the current period (as set by its current product.
+			<div class="description short">
+				<p>Chargify offers the ability to cancel a subscription at the end of the current period (as set by its current product.
 Setting the subscription to cancel at the end of the period sets the cancel_at_end_of_period to true.</p>
-		</div>
+			</div>
 
-		<div class="description detailed hidden">
-			<p>Chargify offers the ability to cancel a subscription at the end of the current period (as set by its current product.
+			<div class="description detailed hidden">
+				<p>Chargify offers the ability to cancel a subscription at the end of the current period (as set by its current product.
 Setting the subscription to cancel at the end of the period sets the cancel_at_end_of_period to true.</p>
 
 <p>Note, that you cannot set cancel_at_end_of_period at subscription creation.</p>
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$entity</var></dt>
-					<dd></dd>
-				</dl></div>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$entity</var></dt>
+						<dd></dd>
+					</dl></div>
 
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
 
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="reactivate" id="_reactivate">
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="reactivate" id="_reactivate">
 
-		<td class="attributes"><code>
-			 public 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-			
-			
-			</code>
-		</td>
+			<td class="name"><div>
+			<a class="anchor" href="#_reactivate">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#192-219" title="Go to source code">reactivate</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span>, <span> <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_reactivate">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#202-232" title="Go to source code">reactivate</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span>, <span> <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+			<div class="description short">
+				<p>Reactivate a Subscription</p>
+			</div>
 
-		<div class="description short">
-			<p>Reactivate a Subscription</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Reactivate a Subscription</p>
+			<div class="description detailed hidden">
+				<p>Reactivate a Subscription</p>
 
 <p>Optional Parameters: include_trial – Boolean, default 0. If 1 is sent the reactivated subscription will include a trial if one is available. If 0 is sent, the trial period will be ignored. This parameter should be sent in a query string, and does not need to be nested inside a subscription object preserve_balance – Boolean, default ‘0’. If ‘1’ is passed, the existing subscription balance will NOT be cleared/reset before adding the additional reactivation charges. coupon_code – The coupon code to be applied during reactivation</p>
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$entity</var></dt>
-					<dd></dd>
-					<dt><var>$options</var></dt>
-					<dd></dd>
-				</dl></div>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$entity</var></dt>
+						<dd></dd>
+						<dt><var>$options</var></dt>
+						<dd></dd>
+					</dl></div>
 
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
 
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="resetBalance" id="_resetBalance">
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="resetBalance" id="_resetBalance">
 
-		<td class="attributes"><code>
-			 public 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-			
-			
-			</code>
-		</td>
+			<td class="name"><div>
+			<a class="anchor" href="#_resetBalance">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#221-247" title="Go to source code">resetBalance</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_resetBalance">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#234-263" title="Go to source code">resetBalance</a>( <span><code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code> <var>$entity</var></span> )</code>
+			<div class="description short">
+				<p>Reset the balance on a subscription.</p>
+			</div>
 
-		<div class="description short">
-			<p>Reset the balance on a subscription.</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Reset the balance on a subscription.</p>
+			<div class="description detailed hidden">
+				<p>Reset the balance on a subscription.</p>
 
 <p>Chargify offers the ability to easily reset the balance of a subscription to zero.
 If a subscription has a positive balance, this API call will issue a credit to the subscription for the outstanding balance.
 This is particularly helpful if you want to reactivate a canceled subscription without charging the customer for their previously owed balance.</p>
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$entity</var></dt>
-					<dd></dd>
-				</dl></div>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$entity</var></dt>
+						<dd></dd>
+					</dl></div>
 
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="findAll" id="_findAll">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_findAll">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#265-284" title="Go to source code">findAll</a>( <span>array <var>$query</var> = <span class="php-keyword1">array</span>()</span> )</code>
-
-		<div class="description short">
-			<p>Fetch all Subscriptions.</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Fetch all Subscriptions.</p>
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$query</var></dt>
-					<dd></dd>
-				</dl></div>
-
-
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
 
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="findByCustomer" id="_findByCustomer">
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="findAll" id="_findAll">
 
-		<td class="attributes"><code>
-			 public 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-			
-			
-			</code>
-		</td>
+			<td class="name"><div>
+			<a class="anchor" href="#_findAll">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#249-268" title="Go to source code">findAll</a>( <span>array <var>$query</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_findByCustomer">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#286-308" title="Go to source code">findByCustomer</a>( <span>Litwicki\Bundle\ChargifyBundle\Handler\Customer <var>$entity</var></span>, <span>array <var>$query</var> = <span class="php-keyword1">array</span>()</span> )</code>
+			<div class="description short">
+				<p>Fetch all Subscriptions.</p>
+			</div>
 
-		<div class="description short">
-			<p>Find all Subscriptions for a Customer.</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Find all Subscriptions for a Customer.</p>
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$entity</var></dt>
-					<dd></dd>
-					<dt><var>$query</var></dt>
-					<dd></dd>
-				</dl></div>
+			<div class="description detailed hidden">
+				<p>Fetch all Subscriptions.</p>
 
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$query</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
 
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="deletePaymentProfile" id="_deletePaymentProfile">
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="findByCustomer" id="_findByCustomer">
 
-		<td class="attributes"><code>
-			 public 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-			
-			
-			</code>
-		</td>
+			<td class="name"><div>
+			<a class="anchor" href="#_findByCustomer">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#270-292" title="Go to source code">findByCustomer</a>( <span>Litwicki\Bundle\ChargifyBundle\Handler\Customer <var>$entity</var></span>, <span>array <var>$query</var> = <span class="php-keyword1">array</span>()</span> )</code>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_deletePaymentProfile">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#310-341" title="Go to source code">deletePaymentProfile</a>( <span>Litwicki\Bundle\ChargifyBundle\Handler\PaymentProfile <var>$entity</var></span> )</code>
+			<div class="description short">
+				<p>Find all Subscriptions for a Customer.</p>
+			</div>
 
-		<div class="description short">
-			<p>This will delete a payment profile belonging to the customer on the subscription.
+			<div class="description detailed hidden">
+				<p>Find all Subscriptions for a Customer.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$entity</var></dt>
+						<dd></dd>
+						<dt><var>$query</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="deletePaymentProfile" id="_deletePaymentProfile">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_deletePaymentProfile">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Handler.SubscriptionHandler.html#294-325" title="Go to source code">deletePaymentProfile</a>( <span>Litwicki\Bundle\ChargifyBundle\Handler\PaymentProfile <var>$entity</var></span> )</code>
+
+			<div class="description short">
+				<p>This will delete a payment profile belonging to the customer on the subscription.
 Please note that if the customer has multiple subscriptions, the payment profile will be removed from all of them.</p>
-		</div>
+			</div>
 
-		<div class="description detailed hidden">
-			<p>This will delete a payment profile belonging to the customer on the subscription.
+			<div class="description detailed hidden">
+				<p>This will delete a payment profile belonging to the customer on the subscription.
 Please note that if the customer has multiple subscriptions, the payment profile will be removed from all of them.</p>
 
 <p>Please note that if you delete the default payment profile for a subscription, there is currently no way to designate a
@@ -679,49 +663,45 @@ billing portal or on the self-service page, or visit the Payment Details tab on 
 the “Add New Credit Card” or “Make Active Payment Method” link, (depending on whether there are other cards present.)</p>
 
 
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$entity</var></dt>
-					<dd></dd>
-				</dl></div>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$entity</var></dt>
+						<dd></dd>
+					</dl></div>
 
 
-				<h4>Throws</h4>
-				<div class="list">
-					Exception
-				</div>
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
 
 
 
+			</div>
+			</div></td>
+		</tr>
+			</table>
 		</div>
-		</div></td>
-	</tr>
-	</table>
 
-	<table class="summary inherited">
-	<caption>Methods inherited from <a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#methods">Litwicki\Bundle\ChargifyBundle\Services\ChargifyHandler</a></caption>
-	<tr>
-		<td><code>
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#___construct">__construct()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_assignValues">assignValues()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_camelize">camelize()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_decamelize">decamelize()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_entityToArray">entityToArray()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_entityToJson">entityToJson()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_entityToPostData">entityToPostData()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_entityToXml">entityToXml()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_fetchMultiple">fetchMultiple()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_findStatement">findStatement()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_formatResponse">formatResponse()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_getSiteStatements">getSiteStatements()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_getStats">getStats()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_postData">postData()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_request">request()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_stringToArray">stringToArray()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_throwException">throwException()</a>
-		</code></td>
-	</tr>
-	</table>
+		<div class="panel panel-default">
+	        <div class="panel-heading"><h3>Methods inherited from <a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#methods">Litwicki\Bundle\ChargifyBundle\Services\ChargifyHandler</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#___construct">__construct()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_camelize">camelize()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_decamelize">decamelize()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_entityToPostData">entityToPostData()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_fetchMultiple">fetchMultiple()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_findStatement">findStatement()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_format">format()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_getSiteStatements">getSiteStatements()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_getStats">getStats()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_postData">postData()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_request">request()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_responseToArray">responseToArray()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_serializer">serializer()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#_throwException">throwException()</a></code>
+			</p>
+		</div>
 
 
 
@@ -732,21 +712,29 @@ the “Add New Credit Card” or “Make Active Payment Method” link, (dependi
 
 
 
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+		</div>
 
-
+		<div class="panel panel-default">
+            <div class="panel-heading"><h3>Properties inherited from <a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#properties">Litwicki\Bundle\ChargifyBundle\Services\ChargifyHandler</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyHandler.html#$serializer"><var>$serializer</var></a></code>
+			</p>
+		</div>
 
 
 
 
 
 </div>
+	</div>
 
 	<div id="footer">
 		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
-</div>
-<script src="resources/combined.js"></script>
-<script src="elementlist.js"></script>
+<script src="resources/combined.js?cd021bc814832c24a7cec5319ea03335bfba1caf"></script>
+<script src="elementlist.js?0ae620eed5bb287f0641b4979a6c56b405f464e6"></script>
 </body>
 </html>

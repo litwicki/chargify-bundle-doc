@@ -5,72 +5,91 @@
 
 	<title>Class Litwicki\Bundle\ChargifyBundle\Model\ManagementLink</title>
 
-	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
 
 </head>
 
 <body>
-<div id="left">
-	<div id="menu">
-		<a href="index.html" title="Overview"><span>Overview</span></a>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
 
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Model.html" title="Summary of Litwicki\Bundle\ChargifyBundle\Model"><span>Namespace</span></a>
+					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
 
 		<div id="groups">
 				<h3>Namespaces</h3>
 			<ul>
-				<li class="active">
-					<a href="namespace-Litwicki.html">
-						Litwicki<span></span>
-					</a>
-
-						<ul>
-				<li class="active">
-					<a href="namespace-Litwicki.Bundle.html">
-						Bundle<span></span>
-					</a>
-
-						<ul>
-				<li class="active">
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.html">
-						ChargifyBundle<span></span>
-					</a>
-
-						<ul>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Controller.html">
-						Controller					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.DependencyInjection.html">
-						DependencyInjection					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Exception.html">
-						Exception					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Handler.html">
-						Handler					</a>
-
-						</li>
-				<li class="active">
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Model.html">
-						Model					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html">
-						Services					</a>
-
-						</li>
-							</ul></li></ul></li></ul></li>
+					<li class="active">
+						<a href="namespace-Litwicki.html">
+							Litwicki<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-Litwicki.Bundle.html">
+							Bundle<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.html">
+							ChargifyBundle<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Controller.html">
+							Controller						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.DependencyInjection.html">
+							DependencyInjection						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Exception.html">
+							Exception						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Handler.html">
+							Handler						</a>
+							</li>
+					<li class="active">
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Model.html">
+							Model						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html">
+							Services						</a>
+							</li>
+								</ul></li></ul></li></ul></li>
 			</ul>
 		</div>
-
-		<hr>
 
 
 		<div id="elements">
@@ -108,36 +127,13 @@
 <div id="splitter"></div>
 
 <div id="right">
-<div id="rightInner">
-	<form id="search">
-		<input type="hidden" name="cx" value="">
-		<input type="hidden" name="ie" value="UTF-8">
-		<input type="text" name="q" class="text" placeholder="Search">
-	</form>
-
-	<div id="navigation">
-		<ul>
-			<li>
-				<a href="index.html" title="Overview"><span>Overview</span></a>
-			</li>
-			<li>
-				<a href="namespace-Litwicki.Bundle.ChargifyBundle.Model.html" title="Summary of Litwicki\Bundle\ChargifyBundle\Model"><span>Namespace</span></a>
-			</li>
-			<li class="active">
-<span>Class</span>			</li>
-		</ul>
-		<ul>
-		</ul>
-		<ul>
-		</ul>
-	</div>
-
+	<div id="rightInner">
 <div id="content" class="class">
 	<h1>Class ManagementLink</h1>
 
 
 
-	<dl class="tree">
+	<dl class="tree well">
 		<dd style="padding-left:0px">
 			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html"><span>Litwicki\Bundle\ChargifyBundle\Services\ChargifyModel</span></a>
 			
@@ -161,7 +157,7 @@
 
 
 
-	<div class="info">
+	<div class="alert alert-info">
 		
 		
 		<b>Namespace:</b> <a href="namespace-Litwicki.html">Litwicki</a>\<a href="namespace-Litwicki.Bundle.html">Bundle</a>\<a href="namespace-Litwicki.Bundle.ChargifyBundle.html">ChargifyBundle</a>\<a href="namespace-Litwicki.Bundle.ChargifyBundle.Model.html">Model</a><br>
@@ -173,387 +169,21 @@
 
 
 
-	<table class="summary methods" id="methods">
-	<caption>Methods summary</caption>
-	<tr data-order="getCreatedAt" id="_getCreatedAt">
-
-		<td class="attributes"><code>
-			 public 
-
-			datetime
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_getCreatedAt">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#43-49" title="Go to source code">getCreatedAt</a>( )</code>
-
-		<div class="description short">
-			
-		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-
-				<h4>Returns</h4>
-				<div class="list">
-					datetime
-				</div>
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="setCreatedAt" id="_setCreatedAt">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_setCreatedAt">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#51-57" title="Go to source code">setCreatedAt</a>( <span>datetime <var>$created_at</var></span> )</code>
-
-		<div class="description short">
-			
-		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$created_at</var></dt>
-					<dd></dd>
-				</dl></div>
-
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="getExpiresAt" id="_getExpiresAt">
-
-		<td class="attributes"><code>
-			 public 
-
-			datetime
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_getExpiresAt">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#59-65" title="Go to source code">getExpiresAt</a>( )</code>
-
-		<div class="description short">
-			
-		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-
-				<h4>Returns</h4>
-				<div class="list">
-					datetime
-				</div>
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="setExpiresAt" id="_setExpiresAt">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_setExpiresAt">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#67-73" title="Go to source code">setExpiresAt</a>( <span>datetime <var>$expires_at</var></span> )</code>
-
-		<div class="description short">
-			
-		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$expires_at</var></dt>
-					<dd></dd>
-				</dl></div>
-
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="getFetchCount" id="_getFetchCount">
-
-		<td class="attributes"><code>
-			 public 
-
-			datetime
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_getFetchCount">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#75-81" title="Go to source code">getFetchCount</a>( )</code>
-
-		<div class="description short">
-			
-		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-
-				<h4>Returns</h4>
-				<div class="list">
-					datetime
-				</div>
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="setFetchCount" id="_setFetchCount">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_setFetchCount">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#83-89" title="Go to source code">setFetchCount</a>( <span>datetime <var>$fetch_count</var></span> )</code>
-
-		<div class="description short">
-			
-		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$fetch_count</var></dt>
-					<dd></dd>
-				</dl></div>
-
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="getNewLinkAvailableAt" id="_getNewLinkAvailableAt">
-
-		<td class="attributes"><code>
-			 public 
-
-			datetime
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_getNewLinkAvailableAt">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#91-97" title="Go to source code">getNewLinkAvailableAt</a>( )</code>
-
-		<div class="description short">
-			
-		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-
-				<h4>Returns</h4>
-				<div class="list">
-					datetime
-				</div>
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="setNewLinkAvailableAt" id="_setNewLinkAvailableAt">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_setNewLinkAvailableAt">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#99-105" title="Go to source code">setNewLinkAvailableAt</a>( <span>datetime <var>$new_link_available_at</var></span> )</code>
-
-		<div class="description short">
-			
-		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$new_link_available_at</var></dt>
-					<dd></dd>
-				</dl></div>
-
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="getUrl" id="_getUrl">
-
-		<td class="attributes"><code>
-			 public 
-
-			datetime
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_getUrl">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#107-113" title="Go to source code">getUrl</a>( )</code>
-
-		<div class="description short">
-			
-		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-
-				<h4>Returns</h4>
-				<div class="list">
-					datetime
-				</div>
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="setUrl" id="_setUrl">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_setUrl">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#115-121" title="Go to source code">setUrl</a>( <span>datetime <var>$url</var></span> )</code>
-
-		<div class="description short">
-			
-		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$url</var></dt>
-					<dd></dd>
-				</dl></div>
-
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	</table>
-
-	<table class="summary inherited">
-	<caption>Methods inherited from <a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#methods">Litwicki\Bundle\ChargifyBundle\Services\ChargifyModel</a></caption>
-	<tr>
-		<td><code>
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#___call">__call()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#___toString">__toString()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#_getXmlRootName">getXmlRootName()</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#_setId">setId()</a>
-		</code></td>
-	</tr>
-	</table>
-
-
-
-
-
-
-
-
-
-
-
-	<table class="summary properties" id="properties">
-	<caption>Properties summary</caption>
-	<tr data-order="url" id="$url">
-		<td class="attributes"><code>
-			protected  
-			
-		</code></td>
-
-		<td class="name">
-				<a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#18-21" title="Go to source code"><var>$url</var></a>
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="getCreatedAt" id="_getCreatedAt">
+
+			<td class="attributes"><code>
+				 public 
+				datetime
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getCreatedAt">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#43-49" title="Go to source code">getCreatedAt</a>( )</code>
 
 			<div class="description short">
 				
@@ -562,27 +192,31 @@
 			<div class="description detailed hidden">
 				
 
-					<h4>Type</h4>
-					<div class="list">
-							string<br>
-					</div>
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$url" class="anchor">#</a>
-				<code></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="fetch_count" id="$fetch_count">
-		<td class="attributes"><code>
-			protected  
-			
-		</code></td>
 
-		<td class="name">
-				<a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#23-26" title="Go to source code"><var>$fetch_count</var></a>
+
+					<h4>Returns</h4>
+					<div class="list">
+						datetime
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setCreatedAt" id="_setCreatedAt">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setCreatedAt">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#51-57" title="Go to source code">setCreatedAt</a>( <span>datetime <var>$created_at</var></span> )</code>
 
 			<div class="description short">
 				
@@ -591,27 +225,32 @@
 			<div class="description detailed hidden">
 				
 
-					<h4>Type</h4>
-					<div class="list">
-							int<br>
-					</div>
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$fetch_count" class="anchor">#</a>
-				<code></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="created_at" id="$created_at">
-		<td class="attributes"><code>
-			protected  
-			
-		</code></td>
 
-		<td class="name">
-				<a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#28-31" title="Go to source code"><var>$created_at</var></a>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$created_at</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getExpiresAt" id="_getExpiresAt">
+
+			<td class="attributes"><code>
+				 public 
+				datetime
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getExpiresAt">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#59-65" title="Go to source code">getExpiresAt</a>( )</code>
 
 			<div class="description short">
 				
@@ -620,27 +259,31 @@
 			<div class="description detailed hidden">
 				
 
-					<h4>Type</h4>
-					<div class="list">
-							datetime<br>
-					</div>
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$created_at" class="anchor">#</a>
-				<code></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="new_link_available_at" id="$new_link_available_at">
-		<td class="attributes"><code>
-			protected  
-			
-		</code></td>
 
-		<td class="name">
-				<a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#33-36" title="Go to source code"><var>$new_link_available_at</var></a>
+
+					<h4>Returns</h4>
+					<div class="list">
+						datetime
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setExpiresAt" id="_setExpiresAt">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setExpiresAt">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#67-73" title="Go to source code">setExpiresAt</a>( <span>datetime <var>$expires_at</var></span> )</code>
 
 			<div class="description short">
 				
@@ -649,27 +292,32 @@
 			<div class="description detailed hidden">
 				
 
-					<h4>Type</h4>
-					<div class="list">
-							datetime<br>
-					</div>
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$new_link_available_at" class="anchor">#</a>
-				<code></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="expires_at" id="$expires_at">
-		<td class="attributes"><code>
-			protected  
-			
-		</code></td>
 
-		<td class="name">
-				<a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#38-41" title="Go to source code"><var>$expires_at</var></a>
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$expires_at</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getFetchCount" id="_getFetchCount">
+
+			<td class="attributes"><code>
+				 public 
+				datetime
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getFetchCount">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#75-81" title="Go to source code">getFetchCount</a>( )</code>
 
 			<div class="description short">
 				
@@ -678,42 +326,379 @@
 			<div class="description detailed hidden">
 				
 
-					<h4>Type</h4>
-					<div class="list">
-							datetime<br>
-					</div>
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$expires_at" class="anchor">#</a>
-				<code></code>
-			</div>
-		</td>
-	</tr>
-	</table>
 
-	<table class="summary inherited">
-	<caption>Properties inherited from <a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#properties">Litwicki\Bundle\ChargifyBundle\Services\ChargifyModel</a></caption>
-	<tr>
-		<td><code>
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#$id"><var>$id</var></a>
-		</code></td>
-	</tr>
-	</table>
+
+					<h4>Returns</h4>
+					<div class="list">
+						datetime
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setFetchCount" id="_setFetchCount">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setFetchCount">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#83-89" title="Go to source code">setFetchCount</a>( <span>datetime <var>$fetch_count</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$fetch_count</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getNewLinkAvailableAt" id="_getNewLinkAvailableAt">
+
+			<td class="attributes"><code>
+				 public 
+				datetime
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getNewLinkAvailableAt">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#91-97" title="Go to source code">getNewLinkAvailableAt</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						datetime
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setNewLinkAvailableAt" id="_setNewLinkAvailableAt">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setNewLinkAvailableAt">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#99-105" title="Go to source code">setNewLinkAvailableAt</a>( <span>datetime <var>$new_link_available_at</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$new_link_available_at</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getUrl" id="_getUrl">
+
+			<td class="attributes"><code>
+				 public 
+				datetime
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getUrl">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#107-113" title="Go to source code">getUrl</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						datetime
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setUrl" id="_setUrl">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setUrl">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#115-121" title="Go to source code">setUrl</a>( <span>datetime <var>$url</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$url</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+		<div class="panel panel-default">
+	        <div class="panel-heading"><h3>Methods inherited from <a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#methods">Litwicki\Bundle\ChargifyBundle\Services\ChargifyModel</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#___call">__call()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#___toString">__toString()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#_getXmlRootName">getXmlRootName()</a></code>, 
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#_setId">setId()</a></code>
+			</p>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="url" id="$url">
+			<td class="attributes"><code>
+				protected  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#18-21" title="Go to source code"><var>$url</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Type</h4>
+						<div class="list">
+								string<br>
+						</div>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$url" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="fetch_count" id="$fetch_count">
+			<td class="attributes"><code>
+				protected  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#23-26" title="Go to source code"><var>$fetch_count</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Type</h4>
+						<div class="list">
+								int<br>
+						</div>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$fetch_count" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="created_at" id="$created_at">
+			<td class="attributes"><code>
+				protected  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#28-31" title="Go to source code"><var>$created_at</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Type</h4>
+						<div class="list">
+								datetime<br>
+						</div>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$created_at" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="new_link_available_at" id="$new_link_available_at">
+			<td class="attributes"><code>
+				protected  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#33-36" title="Go to source code"><var>$new_link_available_at</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Type</h4>
+						<div class="list">
+								datetime<br>
+						</div>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$new_link_available_at" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="expires_at" id="$expires_at">
+			<td class="attributes"><code>
+				protected  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html#38-41" title="Go to source code"><var>$expires_at</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Type</h4>
+						<div class="list">
+								datetime<br>
+						</div>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$expires_at" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h3>Properties inherited from <a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#properties">Litwicki\Bundle\ChargifyBundle\Services\ChargifyModel</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyModel.html#$id"><var>$id</var></a></code>
+			</p>
+		</div>
 
 
 
 
 
 </div>
+	</div>
 
 	<div id="footer">
 		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
-</div>
-<script src="resources/combined.js"></script>
-<script src="elementlist.js"></script>
+<script src="resources/combined.js?cd021bc814832c24a7cec5319ea03335bfba1caf"></script>
+<script src="elementlist.js?0ae620eed5bb287f0641b4979a6c56b405f464e6"></script>
 </body>
 </html>

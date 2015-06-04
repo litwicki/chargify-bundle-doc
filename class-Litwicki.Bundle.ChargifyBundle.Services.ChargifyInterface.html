@@ -5,72 +5,91 @@
 
 	<title>Interface Litwicki\Bundle\ChargifyBundle\Services\ChargifyInterface</title>
 
-	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
 
 </head>
 
 <body>
-<div id="left">
-	<div id="menu">
-		<a href="index.html" title="Overview"><span>Overview</span></a>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
 
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html" title="Summary of Litwicki\Bundle\ChargifyBundle\Services"><span>Namespace</span></a>
+					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
 
 		<div id="groups">
 				<h3>Namespaces</h3>
 			<ul>
-				<li class="active">
-					<a href="namespace-Litwicki.html">
-						Litwicki<span></span>
-					</a>
-
-						<ul>
-				<li class="active">
-					<a href="namespace-Litwicki.Bundle.html">
-						Bundle<span></span>
-					</a>
-
-						<ul>
-				<li class="active">
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.html">
-						ChargifyBundle<span></span>
-					</a>
-
-						<ul>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Controller.html">
-						Controller					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.DependencyInjection.html">
-						DependencyInjection					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Exception.html">
-						Exception					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Handler.html">
-						Handler					</a>
-
-						</li>
-				<li>
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Model.html">
-						Model					</a>
-
-						</li>
-				<li class="active">
-					<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html">
-						Services					</a>
-
-						</li>
-							</ul></li></ul></li></ul></li>
+					<li class="active">
+						<a href="namespace-Litwicki.html">
+							Litwicki<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-Litwicki.Bundle.html">
+							Bundle<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.html">
+							ChargifyBundle<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Controller.html">
+							Controller						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.DependencyInjection.html">
+							DependencyInjection						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Exception.html">
+							Exception						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Handler.html">
+							Handler						</a>
+							</li>
+					<li>
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Model.html">
+							Model						</a>
+							</li>
+					<li class="active">
+						<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html">
+							Services						</a>
+							</li>
+								</ul></li></ul></li></ul></li>
 			</ul>
 		</div>
-
-		<hr>
 
 
 		<div id="elements">
@@ -97,30 +116,7 @@
 <div id="splitter"></div>
 
 <div id="right">
-<div id="rightInner">
-	<form id="search">
-		<input type="hidden" name="cx" value="">
-		<input type="hidden" name="ie" value="UTF-8">
-		<input type="text" name="q" class="text" placeholder="Search">
-	</form>
-
-	<div id="navigation">
-		<ul>
-			<li>
-				<a href="index.html" title="Overview"><span>Overview</span></a>
-			</li>
-			<li>
-				<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html" title="Summary of Litwicki\Bundle\ChargifyBundle\Services"><span>Namespace</span></a>
-			</li>
-			<li class="active">
-<span>Class</span>			</li>
-		</ul>
-		<ul>
-		</ul>
-		<ul>
-		</ul>
-	</div>
-
+	<div id="rightInner">
 <div id="content" class="class">
 	<h1>Interface ChargifyInterface</h1>
 
@@ -131,32 +127,34 @@
 
 
 	<div>
-		<h4>Direct known implementers</h4>
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Adjustment.html">Litwicki\Bundle\ChargifyBundle\Model\Adjustment</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Allocation.html">Litwicki\Bundle\ChargifyBundle\Model\Allocation</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Migration.html">Litwicki\Bundle\ChargifyBundle\Model\Migration</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Payment.html">Litwicki\Bundle\ChargifyBundle\Model\Payment</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.PaymentProfile.html">Litwicki\Bundle\ChargifyBundle\Model\PaymentProfile</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Product.html">Litwicki\Bundle\ChargifyBundle\Model\Product</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Refund.html">Litwicki\Bundle\ChargifyBundle\Model\Refund</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.RenewalPreview.html">Litwicki\Bundle\ChargifyBundle\Model\RenewalPreview</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Statement.html">Litwicki\Bundle\ChargifyBundle\Model\Statement</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Webhook.html">Litwicki\Bundle\ChargifyBundle\Model\Webhook</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Charge.html">Litwicki\Bundle\ChargifyBundle\Model\Charge</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Component.html">Litwicki\Bundle\ChargifyBundle\Model\Component</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Coupon.html">Litwicki\Bundle\ChargifyBundle\Model\Coupon</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Credit.html">Litwicki\Bundle\ChargifyBundle\Model\Credit</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Customer.html">Litwicki\Bundle\ChargifyBundle\Model\Customer</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Event.html">Litwicki\Bundle\ChargifyBundle\Model\Event</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.Invoice.html">Litwicki\Bundle\ChargifyBundle\Model\Invoice</a>, 
-			<a href="class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html">Litwicki\Bundle\ChargifyBundle\Model\ManagementLink</a>
+		<h3>Direct known implementers</h3>
+		<p class="elementList">
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Adjustment.html">Litwicki\Bundle\ChargifyBundle\Model\Adjustment</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Allocation.html">Litwicki\Bundle\ChargifyBundle\Model\Allocation</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Migration.html">Litwicki\Bundle\ChargifyBundle\Model\Migration</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Payment.html">Litwicki\Bundle\ChargifyBundle\Model\Payment</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.PaymentProfile.html">Litwicki\Bundle\ChargifyBundle\Model\PaymentProfile</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Product.html">Litwicki\Bundle\ChargifyBundle\Model\Product</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Refund.html">Litwicki\Bundle\ChargifyBundle\Model\Refund</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.RenewalPreview.html">Litwicki\Bundle\ChargifyBundle\Model\RenewalPreview</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Statement.html">Litwicki\Bundle\ChargifyBundle\Model\Statement</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Subscription.html">Litwicki\Bundle\ChargifyBundle\Model\Subscription</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Webhook.html">Litwicki\Bundle\ChargifyBundle\Model\Webhook</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Charge.html">Litwicki\Bundle\ChargifyBundle\Model\Charge</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Component.html">Litwicki\Bundle\ChargifyBundle\Model\Component</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Coupon.html">Litwicki\Bundle\ChargifyBundle\Model\Coupon</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Credit.html">Litwicki\Bundle\ChargifyBundle\Model\Credit</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Customer.html">Litwicki\Bundle\ChargifyBundle\Model\Customer</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Event.html">Litwicki\Bundle\ChargifyBundle\Model\Event</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.Invoice.html">Litwicki\Bundle\ChargifyBundle\Model\Invoice</a></code>, 
+			<code><a href="class-Litwicki.Bundle.ChargifyBundle.Model.ManagementLink.html">Litwicki\Bundle\ChargifyBundle\Model\ManagementLink</a></code>
+		</p>
 	</div>
 
 
 
 
-	<div class="info">
+	<div class="alert alert-info">
 		
 		
 		<b>Namespace:</b> <a href="namespace-Litwicki.html">Litwicki</a>\<a href="namespace-Litwicki.Bundle.html">Bundle</a>\<a href="namespace-Litwicki.Bundle.ChargifyBundle.html">ChargifyBundle</a>\<a href="namespace-Litwicki.Bundle.ChargifyBundle.Services.html">Services</a><br>
@@ -168,46 +166,40 @@
 
 
 
-	<table class="summary methods" id="methods">
-	<caption>Methods summary</caption>
-	<tr data-order="getXmlRootName" id="_getXmlRootName">
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="getXmlRootName" id="_getXmlRootName">
 
-		<td class="attributes"><code>
-			 public 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-			
-			
-			</code>
-		</td>
+			<td class="name"><div>
+			<a class="anchor" href="#_getXmlRootName">#</a>
+			<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyInterface.html#7" title="Go to source code">getXmlRootName</a>( )</code>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_getXmlRootName">#</a>
-		<code><a href="source-class-Litwicki.Bundle.ChargifyBundle.Services.ChargifyInterface.html#7" title="Go to source code">getXmlRootName</a>( )</code>
+			<div class="description short">
+				
+			</div>
 
-		<div class="description short">
-			
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
 		</div>
-
-		<div class="description detailed hidden">
-			
-
-
-
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	</table>
-
-
-
-
-
-
-
 
 
 
@@ -220,13 +212,13 @@
 
 
 </div>
+	</div>
 
 	<div id="footer">
 		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
-</div>
-<script src="resources/combined.js"></script>
-<script src="elementlist.js"></script>
+<script src="resources/combined.js?cd021bc814832c24a7cec5319ea03335bfba1caf"></script>
+<script src="elementlist.js?0ae620eed5bb287f0641b4979a6c56b405f464e6"></script>
 </body>
 </html>
